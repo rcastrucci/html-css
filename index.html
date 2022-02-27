@@ -1,68 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPlace - Live Web</title>
-    
-    <!-- Link do meu CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Meu Script -->
-    <script defer src="./js/scroll.js"></script>
+<html lang="pt-BR">
 
-</head>
-<body>
-    <header class="header-top">
-        <h1>My Place</h1>
-        <nav class="header-nav">
-            <ul>
-                <li><a href="">Tours</a></li>
-                <li><a href="">Explore</a></li>
-                <li><a href="">Eventos</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPlace - Live Web</title>
 
-    <!-- Hero -->
-    <section class="hero">
-        <h2 class="hero-title">O MyPlace é exatamente assim...</h2>
-        <h3 class="hero-text">Simplesmente maravilhoso!</h3>
-        <a href="" class="hero-link">Mais informações</a>
-    </section>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
 
-    <!-- Tours -->
-    <section class="tour">
-        <h2 class="tour-title">Faça um tour pelas montanhas</h2>
-        <div class="line"></div>
+    <body>
+        <header class="header-top">
+            <h1 class="header-title"><a href="#">MyPlace</a></h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#eventos">Eventos</a></li>                 
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <div class="tour-list">
-            <!-- 1 Imagem -->
-            <div class="tour-list-item">
-                <img src="./images/pexels-francesco-ungaro-2835436.jpg" alt="Imagem Paisagem">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem sed natus laudantium earum molestiae.
-                </p>
-                <a href="" class="btn">Veja Mais</a>
+        <!-- hero -->
+        <section class="hero">
+            <h3 class="hero-title">O MyPlace é exatamente assim...</h3>
+            <h2 class="hero-text">Simplesmente maravilhoso!</h2>
+            <a href="" class="hero-link">Mais informações</a>
+        </section>
+
+        <!-- tour -->
+        <section class="tour" id="tours">
+            <h2 class="tour-title">Faça um tour pelas montanhas</h2>
+            <div class="line"></div>
+
+            <div class="tour-list">
+               
+                <div class="tour-list-item">
+                    <img src="./images/pexels-francesco-ungaro-2835436.jpg" alt="Faça um tour pelas montanhas" class="img-tour">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione nobis beatae laboriosam
+                        architecto aliquid atque. </p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>
+
+                <div class="tour-list-item">
+                    <img src="./images/pexels-roberto-shumski-5555192.jpg" alt="Faça um tour pelas montanhas" class="img-tour">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione nobis beatae laboriosam
+                        architecto aliquid atque. </p>
+                    <a href="" class="btn">Veja mais</a>
+                </div>
+
             </div>
-            <!-- Fim 1 Imagem -->
+        </section>
 
-            <!-- 2 Imagem -->
-            <div class="tour-list-item">
-                <img src="./images/pexels-roberto-shumski-5555192.jpg" alt="Imagem Paisagem">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit exercitationem sed natus laudantium earum molestiae.
+            <!-- explore -->
+            <section class="explore" id="explore">
+                <h2 class="explore-title">Explore nosso mundo</h2>
+                <div class="line"></div>
+                <p class="explore-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ab sequi minima beatae
+                    excepturi, dolor repellat id porro, eaque perferendis aperiam ad autem omnis.
                 </p>
-                <a href="" class="btn">Veja Mais</a>
-            </div>
-            <!-- Fim 2 Imagem -->
-        </div>
+                <a href="" class="btn">Veja mais</a>
+            </section>
 
-    </section>
-    <!-- Fim Tours -->
-    
-</body>
+
+        <script src="./js/scroll.js"></script>
+
+    </body>
+
 </html>
